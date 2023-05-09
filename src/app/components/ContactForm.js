@@ -1,4 +1,5 @@
 'use client'
+// I3OclfI9iEikBiX5
 
 import React, {useState} from 'react';
 import styles from "@/app/contact/contact.module.css"
@@ -90,7 +91,7 @@ const ContactForm = () => {
             <div className={styles.input_field}>
                 <label htmlFor="phone" className={styles.label}>
                     Phone Number
-                    <input type="text" name="phone" id="phone"
+                    <input type="number" name="phone" id="phone"
                            placeholder="Enter your phone"
                            className={mulish.className}
                            value={user.phone}
